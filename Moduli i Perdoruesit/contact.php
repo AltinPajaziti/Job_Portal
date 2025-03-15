@@ -296,12 +296,12 @@ animation:show_slide 1s ease forwards;
                           <div class="row">
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
-                                <input name="name" type="text" id="name" placeholder="Name" required="">
+                                <input name="name" type="text" id="name" placeholder="Your Name*" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
-                                <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Email" required="">
+                                <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">
                               </fieldset>
                             </div>
                             <div class="col-md-12 col-sm-12">

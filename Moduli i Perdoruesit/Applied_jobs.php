@@ -17,6 +17,7 @@ if (isset($_POST['delete_btn'])) {
         $result = mysqli_stmt_execute($stmt);
 
         if ($result) {
+            echo "Aplikimi u largua me sukses";
         } else {
             echo "Gabim në largim: " . mysqli_error($lidhe);
         }
